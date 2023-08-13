@@ -1,0 +1,12 @@
+git init  //To inialise 
+git status   //To check status of any file, is it Push or no?
+nano 'fileName'     //To edit the file
+git add 'fileName'    //To add only one file 'fileName'
+git add .     //To add all the file present in folder
+git commit -m "Any Message"     //To commit to push
+git remote add origin "Https Url from your repository"
+git push origin master   //To finally  push the file to your github profile
+git push origin main    //if master is not used than use main
+Now reload and file will be uploaded
+ 
+ 
